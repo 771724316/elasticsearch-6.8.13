@@ -43,58 +43,58 @@ PUT test_collase
 
 PUT test_collase/doc/1
 {
-  "source":"°Ù¶È",
+  "source":"ç™¾åº¦",
   "time":20200101,
   "focus":100,
-  "title":"±¦Âí³µ"
+  "title":"å®é©¬è½¦"
 }
 
 
 PUT test_collase/doc/2
 {
-  "source":"ĞÂÀË",
+  "source":"æ–°æµª",
   "time":20181230,
   "focus":89,
-  "title":"±¦Âí³µ"
+  "title":"å®é©¬è½¦"
 }
 
 
 
 PUT test_collase/doc/3
 {
-  "source":"ÌÚÑ¶",
+  "source":"è…¾è®¯",
   "time":20191130,
   "focus":50,
-  "title":"±¦Âí³µ"
+  "title":"å®é©¬è½¦"
 }
 
 
 
 PUT test_collase/doc/4
 {
-  "source":"°Ù¶È",
+  "source":"ç™¾åº¦",
   "time":20200112,
   "focus":99,
-  "title":"±¼³Û³µ"
+  "title":"å¥”é©°è½¦"
 }
 
 
 PUT test_collase/doc/5
 {
-  "source":"ĞÂÀË",
+  "source":"æ–°æµª",
   "time":20181231,
   "focus":98,
-  "title":"±¼³Û³µ"
+  "title":"å¥”é©°è½¦"
 }
 
 
 
 PUT test_collase/doc/6
 {
-  "source":"ÌÚÑ¶",
+  "source":"è…¾è®¯",
   "time":20191131,
   "focus":97,
-  "title":"±¼³Û³µ"
+  "title":"å¥”é©°è½¦"
 }
 
 
@@ -102,29 +102,29 @@ PUT test_collase/doc/6
 
 PUT test_collase/doc/7
 {
-  "source":"°Ù¶È",
+  "source":"ç™¾åº¦",
   "time":20200109,
   "focus":105,
-  "title":"´óÖÚ³µ"
+  "title":"å¤§ä¼—è½¦"
 }
 
 
 PUT test_collase/doc/8
 {
-  "source":"ĞÂÀË",
+  "source":"æ–°æµª",
   "time":20181228,
   "focus":103,
-  "title":"´óÖÚ³µ"
+  "title":"å¤§ä¼—è½¦"
 }
 
 
 
 PUT test_collase/doc/9
 {
-  "source":"ÌÚÑ¶",
+  "source":"è…¾è®¯",
   "time":20191128,
   "focus":101,
-  "title":"´óÖÚ³µ"
+  "title":"å¤§ä¼—è½¦"
 }
 
 
@@ -155,7 +155,7 @@ GET http://localhost:9200/test_collase/_search
         },
         "first_hits": {
             "name": "source",
-            "value": "ĞÂÀË",
+            "value": "æ–°æµª",
             "sort": [
                 {
                     "focus": "desc"
