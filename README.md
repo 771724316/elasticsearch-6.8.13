@@ -13,3 +13,8 @@
 ### 2、server/src/main/java/org/apache/lucene/search/grouping/MyDataComparator.java
 ### 3、server/src/main/java/org/elasticsearch/search/collapse/CollapseBuilder.java
 "# elasticsearch-6.8.13" 
+
+
+
+# 测试数据
+test_data.txt
